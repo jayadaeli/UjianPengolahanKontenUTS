@@ -1,0 +1,200 @@
+<?php session_start();
+error_reporting(0);
+include('include/config.php');
+if(strlen($_SESSION['login'])==0)
+{ 
+  header('location:index.php');
+}
+else{ ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DaeliMotorSport</title>
+	
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<div id="wrapper">
+	<div id="inner">
+	<div id="header">
+		<img src="images/header_1.jpg" alt="" height="150" width="1000" />
+		
+</head>
+<body>
+	<nav>
+			<a href="kontak.html" class="btn btn-danger square-btn-adjust">Kontak</a>
+			<a href="tentang.html" class="btn btn-danger square-btn-adjust">Tentang</a>
+			<a href="logout.php" class="btn btn-danger square-btn-adjust">Keluar</a> 	
+	</nav>
+</body>
+<body>
+<hr />
+</body>
+<body>
+	<div id="box">
+		<center>	<h1>Profil Kami </h1> </center>
+		<br></br><hr />
+		<center><img src="images/logo.png" alt="logo" height="150" width="200">
+		<center>	<h2>DAELI MOTOR SPORT </h2> </center>
+		<center>	situs jual motor Sport yang terpercaya </center>
+		<br><hr />
+		<center>	<h3>Alamat Showroom</h3></center>
+		<center>	Jl.Cikarang-Cibarusah, Sukaresmi, Cikarang Selatan, Bekasi, Jawa Barat  </center>
+		<center>	<h4>telp: (021) 8411136 </h4> </center>
+		<br></br><hr />
+		<br></br>
+		<center>	<h2>Ikuti Sosial Media Kami</h2> </center>
+		<br>
+		<center>
+		<a href="http://www.twitter.com/account/login/?hl=id""><img src="images/ig.png" alt="tw" height="50" width="50"/></a> 
+		<a href="http://www.twitter.com/account/login/?hl=id""><img src="images/tw.png" alt="tw" height="50" width="50"/></a> 
+		<a href="http://www.facebook.com/account/login/?hl=id""><img src="images/fb.png" alt="fb" height="50" width="50"/></a>
+		
+	</div>
+		<div id="body">
+			<div class="inner">
+				<div class="leftbox">
+					<h3>HONDA CBR 150R (Blue Edition)</h3>
+						<img src="images/cbr150rbiru.jpg" alt="cbr150rbiru" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>37.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 150 CC</p>
+						<p> Tangki : 12 Liter</p>
+						<p> System ABS</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<p class="readmore"><a href="#popup"><button>Beli</button></a></p>
+				</div>
+				<div class="rightbox">
+					<h3> HONDA CBR 250R (Merah Doff) </h3>
+						<img src="images/cbr250rmerahdof.jpg" alt="cbr250rmerahdof" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>76.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 250 CC</p>
+						<p> Tangki : 13 Liter</p>
+						<p> System ABS</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<p class="readmore"> <a href="#popup"><button>Beli</button></a></p>
+				</div>
+				<div class="clear br"></div>
+				<div class="leftbox">
+					<h3>SUZUKI GSX R 150 (Black Edition) </h3>
+						<img src="images/gsx150rhitam.jpg" alt="photo 2" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>72.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 150 CC</p>
+						<p> Tangki : 12 Liter</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<br>
+						<p class="readmore"><a href="#popup"><button>Beli</button></a></p>
+						<div class="clear"></div>
+				</div>
+				<div class="rightbox">
+					<h3>KAWASAKI NINJA 250</h3>
+						<img src="images/ninja250rgreen.jpg" alt="photo 5" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>68.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 250 CC</p>
+						<p> Tangki : 13 Liter</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<br>
+						<p class="readmore"><a href="#popup"><button>Beli</button></a></p>
+						<div class="clear"></div>
+				</div>
+				<div class="clear br"></div>
+				<div class="leftbox">
+					<h3>KAWASAKI NINJA 250R (Black Edition)</h3>
+						<img src="images/ninja250rhitam.jpg" alt="photo 3" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>75.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 250 CC</p>
+						<p> Tangki : 13 Liter</p>
+						<p> System ABS</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<p class="readmore"><a href="#popup"><button>Beli</button></a></p>
+						<div class="clear"></div>
+				</div>
+				<div class="rightbox">
+					<h3>YAMAHA R25</h3>
+						<img src="images/r25biru.jpg" alt="photo 6" class="left" height="200" width="200" />
+						<p><b>Harga :</b> <b>71.000.000.00</b>
+						&amp; Gratis Helm Full Face dan Sarung tangan.</p>
+						<p><b>Spesifikasi:</b></p>
+						<p> Mesin : 250 CC</p>
+						<p> Tangki : 13 Liter</p>
+						<p> Full Injection</p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<p class="readmore"><a href="#popup"><button>Beli</button></a></p>
+						<div class="clear"></div>
+			
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+<div class="clear"></div>
+	<div id="footer"> Create   @by.jaya_daeli <a href="http://www.hosting24.com/" target="_blank"></a>
+	<div id="footnav"> <a href="http://www.freewebsitetemplates.com">Legal</a> |
+		<a href="http://www.freewebsitetemplates.com">Privacy
+		Policy</a> </div>
+ </div>
+ </div>
+ </div>
+<div id="popup">
+    <div class="window">
+        <a href="#" class="close-button1" title="Close">X</a>
+        <h1>Form Pembelian</h1>
+		<br>
+		<p><h4>Isi form dengan benar, Tim DAELI MOTOR SPORT akan akan segera menghubungi kamu.</h4></p>
+		<br>
+		<hr />
+		<br>
+           <p><h2>Nama</p>
+        <input type="text" name="nama" style="width:300px; border: 1px; height:25px;"/>
+		<br>
+		<br>
+		<p>Email</p>
+         <input type="text" name="email" style="width:300px; border: 1px; height:25px;"/>
+		 <br>
+		 <br>
+		 <p>No.Telp/Wa</p>
+         <input type="text" name="telp" style="width:300px;  border: 1px; height:25px;"/>
+		 <br>
+		 <br>
+		 <p>Penawaran</h2></p>
+         <input type="text" name="penawaran" style="width:300px; border: 1px; height:25px;"/>
+		<br>
+		<br>
+		<br>
+		<p class="button"><a href="#popup1"><button>Selanjutnya</button></a></p>
+		<br>
+    </div>
+</div>
+<div id="popup1">
+    <div class="window1">
+        <a href="#" class="close-button1" title="Close">X</a>
+   
+		
+		
+    </div>
+</body>
+</html>
+<?php } ?>
